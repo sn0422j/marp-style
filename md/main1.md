@@ -1,6 +1,7 @@
 ---
 marp: true
 theme: customVer01
+size: 16:9
 paginate: true
 headingDivider: 1
 header: ヘッダー
@@ -233,7 +234,7 @@ $$
 </div>
 
 # スライド12
-## 文字を大きくする
+## 文字をさらに大きくする
 
 <div class="text-xlarge"> 
 
