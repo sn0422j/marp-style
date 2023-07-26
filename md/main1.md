@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: customVer01
+theme: customVer01.1
 size: 16:9
 paginate: true
 headingDivider: 1
@@ -12,6 +12,11 @@ style: |
         font-family: BIZ UDGothic, sans-serif !important;
     }
 ---
+
+<!-- _class: title -->
+<!-- paginate: false -->
+
+# タイトル！
 
 # スライド1
 ## ふつうに書く
@@ -48,6 +53,8 @@ $$
 2. スライド2の箇条書きです。
 
 </div>
+
+> [1] 脚注です。
 
 # スライド3
 ## 2列に分ける
@@ -96,11 +103,9 @@ $$
 11行目
 12行目
 
-<div style="text-align: center">
+<div class="align-x-center align-y-center">
 
-![](https://github.com/marp-team.png)
-
-</div>
+![height:400px](https://github.com/marp-team.png)</div>
 
 # スライド5
 ## オートスケーリングは難しい
@@ -121,8 +126,8 @@ $$
 ## ブロックを使う
 
 <div class="block">
-<div class="block-title">定義1</div>
 
+### 定義1
 ここに定義を書く。
 それは以下の式です。
 
@@ -246,6 +251,5 @@ $$
 6行目
 7行目
 8行目
-
 
 </div>
