@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: customVer01.2
+theme: customVer01.3
 size: 16:9
 paginate: true
 headingDivider: 1
@@ -14,7 +14,7 @@ style: |
 ---
 
 <!-- _class: title -->
-<!-- paginate: false -->
+<!-- _paginate: false -->
 
 # タイトル！
 

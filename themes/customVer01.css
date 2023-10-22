@@ -1,12 +1,14 @@
-/* @theme customVer01.2 */
+/* @theme customVer01.3 */
 /* @auto-scaling true */
 /* @size 16:9 1280px 720px */
+/* cspell: words xsmall xxsmall xxxsmall xlarge marpit */
 
 @import "default";
 
 :root {
   /* color */
   --blue: #1c37c0;
+  --sky-blue: #1f75c5;
   --dark-blue: #262686;
   --white-grey: #eceff4;
   --blue-grey: #e9e9f3;
@@ -32,12 +34,12 @@
   --h1-font-size: 43px; /* 32pt */
   --h1-color: #ffffff;
   /* --h1-background-color: #1f38c5; */
-  --h1-background-color: #1c37c0;
+  --h1-background-color: var(--blue);
   /* heading 2 */
   --h2-height: 72px;
   --h2-font-size: 35px; /* 26pt */
   --h2-color: #ffffff;
-  --h2-background-color: #1f75c5;
+  --h2-background-color: var(--sky-blue);
   /* main content */
   --content-height: calc(
     var(--height) - var(--h1-height) - var(--h2-height) - var(--header-height)
@@ -55,6 +57,7 @@
   );
   /* Definition block */
   --block-border-radius: 10px;
+  --block-shadow-color: #9a9a9a;
   /* others */
 }
 
@@ -64,7 +67,11 @@ section {
   width: var(--width);
   height: var(--height);
   background-color: var(--section-background-color);
-  overflow: hidden;
+  overflow: clip;
+}
+
+section::after {
+  overflow: clip;
 }
 
 header {
@@ -173,7 +180,6 @@ section {
   /* text */
   font-size: var(--content-font-size);
   line-height: var(--content-line-height);
-  overflow: hidden;
 }
 
 section.no-point {
@@ -335,7 +341,7 @@ section .block {
   background-color: var(--blue-grey);
   border-radius: var(--block-border-radius);
   box-shadow: var(--block-border-radius) calc(var(--block-border-radius) * 0.5)
-    calc(var(--block-border-radius) * 0.5) #9a9a9a;
+    calc(var(--block-border-radius) * 0.5) var(--block-shadow-color);
   padding-left: var(--content-x-padding);
   padding-right: var(--content-x-padding);
   margin-right: calc(var(--block-border-radius)); /* for shadow */
