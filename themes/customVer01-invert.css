@@ -1,0 +1,25 @@
+/* @theme customVer01.3-invert */
+/* @auto-scaling true */
+/* @size 16:9 1280px 720px */
+
+@import "customVer01.3";
+
+:root {
+  /* dark theme */
+  --h1-color: #cee7ff;
+  --header-footer-color: white;
+  --heading-strong-color: #7bf;
+  --paginate-color: #999;
+  --white: #202020;
+  --blue-grey: #181717;
+  --block-shadow-color: #111111;
+  --blue: #13216b;
+  --dark-blue: #2121b6;
+  --white-grey: #eceff4;
+  --black: #383838;
+  --sky-blue: #0f508b;
+}
+
+section {
+  color: var(--h1-color);
+}
