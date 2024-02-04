@@ -1,4 +1,4 @@
-/* @theme customVer01.3 */
+/* @theme customVer01.4 */
 /* @auto-scaling true */
 /* @size 16:9 1280px 720px */
 /* cspell: words xsmall xxsmall xxxsmall xlarge marpit */
@@ -15,6 +15,10 @@
   --white: #ffffff;
   --black: #202020;
   --grey: grey;
+  --light-green: rgba(232, 238, 230, 1.0);
+  --dark-green: rgba(43,  93,  10, 1.0);
+  --light-red: rgba(221, 144, 144, 0.3);
+  --dark-red: rgba(188, 33, 34, 1.0);
   /* section */
   --width: 1280px;
   --height: 720px;
@@ -367,6 +371,22 @@ section .block h3 {
   color: var(--white-grey);
   font-size: var(--content-font-size);
   line-height: calc(var(--content-line-height) * 1.2);
+}
+
+section .block-green {
+  background-color: var(--light-green);
+}
+
+section .block-green h3 {
+  background-color: var(--dark-green);
+}
+
+section .block-red {
+  background-color: var(--light-red);
+}
+
+section .block-red h3 {
+  background-color: var(--dark-red);
 }
 
 /* Title */

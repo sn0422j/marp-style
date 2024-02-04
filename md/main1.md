@@ -348,3 +348,18 @@ $$
 30行目
 
 </div>
+
+# スライド13
+## ブロックを使う
+
+<div class="block block-green">
+
+### 定義1
+ここに定義を書く。
+</div>
+
+<div class="block block-red">
+
+### 定義1
+ここに定義を書く。
+</div>
