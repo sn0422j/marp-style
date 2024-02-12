@@ -1,4 +1,4 @@
-/* @theme customVer01.4 */
+/* @theme customVer01.5 */
 /* @auto-scaling true */
 /* @size 16:9 1280px 720px */
 /* cspell: words xsmall xxsmall xxxsmall xlarge marpit */
@@ -373,6 +373,13 @@ section .block h3 {
   line-height: calc(var(--content-line-height) * 1.2);
 }
 
+section .block-blue {
+  background-color: var(--blue-grey);
+}
+section .block-blue h3 {
+  background-color: var(--dark-blue);
+}
+
 section .block-green {
   background-color: var(--light-green);
 }
@@ -406,6 +413,11 @@ section.title > h1 {
   height: auto;
   /* text */
   text-align: center;
+}
+
+/* Appendix */
+section.appendix h1:nth-of-type(1) {
+  background-color: var(--grey);
 }
 
 /* Table of Contents */

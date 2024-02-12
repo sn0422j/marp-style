@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: customVer01.3
+theme: customVer01.5
 size: 16:9
 paginate: true
 headingDivider: 1
@@ -363,3 +363,6 @@ $$
 ### 定義1
 ここに定義を書く。
 </div>
+
+# スライド14
+<!-- _class: appendix -->

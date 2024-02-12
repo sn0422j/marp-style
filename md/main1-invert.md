@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: customVer01.3-invert
+theme: customVer01.5-invert
 size: 16:9
 paginate: true
 headingDivider: 1
@@ -348,3 +348,27 @@ $$
 30行目
 
 </div>
+
+# スライド13
+## ブロックを使う
+
+<div class="block block-green">
+
+### 定義1
+ここに定義を書く。
+$$
+y = \frac{1}{N} \sum_{i=1}^N x_i
+$$
+</div>
+
+<div class="block block-red">
+
+### 定義1
+ここに定義を書く。
+$$
+y = \frac{1}{N} \sum_{i=1}^N x_i
+$$
+</div>
+
+# スライド14
+<!-- _class: appendix -->
