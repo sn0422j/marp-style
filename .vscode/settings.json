@@ -2,7 +2,9 @@
     "markdown.marp.themes": [
         "./themes/customVer01.css",
         "./themes/customVer01-invert.css",
-        "./themes/customVer02.css"
+        "./themes/customVer02.css",
+        "./themes/customVer03.css",
+        "./themes/customVer03-invert.css",
     ],
-    "markdown.marp.enableHtml": true
+    "markdown.marp.html": "all",
 }

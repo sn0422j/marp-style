@@ -1,8 +1,8 @@
-/* @theme customVer01.6-invert */
+/* @theme customVer03.0-invert */
 /* @auto-scaling true */
 /* @size 16:9 1280px 720px */
 
-@import "customVer01.6";
+@import "customVer03.0";
 
 :root {
   /* dark theme */
@@ -18,10 +18,10 @@
   --white-grey: #eceff4;
   --black: #383838;
   --sky-blue: #0f508b;
-  --light-green: rgba(18, 44, 9, 1.0);
-  --dark-green: rgba(43,  93,  10, 1.0);
+  --light-green: rgba(18, 44, 9, 1);
+  --dark-green: rgba(43, 93, 10, 1);
   --light-red: rgba(99, 8, 8, 0.3);
-  --dark-red: rgb(155, 26, 26, 1.0);
+  --dark-red: rgb(155, 26, 26, 1);
   --grey: rgba(128, 128, 128, 0.7);
 }
 

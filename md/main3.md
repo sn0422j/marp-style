@@ -1,9 +1,8 @@
 ---
 marp: true
-theme: customVer01.6-invert
+theme: customVer03.0
 size: 16:9
 paginate: true
-headingDivider: 1
 header: ヘッダー
 footer: フッター
 math: mathjax
@@ -18,6 +17,7 @@ style: |
 
 # タイトル！
 
+---
 # スライド1
 ## ふつうに書く
 
@@ -34,10 +34,10 @@ style: |
 11行目
 12行目
 
+---
 # スライド2
 ## 数式や箇条書きを入れる
 
-<div>
 スライド2の内容です。
 
 $$
@@ -47,15 +47,12 @@ $$
 - スライド2の箇条書きです。
 - スライド2の箇条書きです。
 
-<br/>
-
 1. スライド2の箇条書きです。
 2. スライド2の箇条書きです。
 
-</div>
-
 > [1] 脚注です。
 
+---
 # スライド3
 ## 2列に分ける
 <!-- _class: two-cols -->
@@ -86,6 +83,7 @@ $$
 11行目
 12行目
 
+---
 # スライド4
 ## 2列目に画像
 <!-- _class: two-cols -->
@@ -107,21 +105,57 @@ $$
 
 ![height:400px](https://github.com/marp-team.png)</div>
 
-# スライド5
-## オートスケーリングは難しい
+---
+# スライド5-1
+## オートスケーリングは改行すればいけるかも？
 
-<h3 is="marp-h3" data-auto-scaling style="">
+<h3 is="marp-h3" data-auto-scaling>
 
-- こんにちは。
-- こんにちは。
-- こんにちは。
-- こんにちは。
-- こんにちは。
-- こんにちは。
-- こんにちは。
+2行目
+3行目
+4行目
+5行目
+6行目
+7行目
+8行目
+9行目
+10行目
+11行目
+12行目
+13行目
+14行目
+15行目
+16行目
+17行目
+18行目
 
-</h3>
+<br><br></h3>
 
+---
+# スライド5-2
+## オートスケーリングは改行すればいけるかも？
+
+<h3 is="marp-h3" data-auto-scaling>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse 
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+:smile:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse 
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<br><br></h3>
+
+---
 # スライド6
 ## ブロックを使う
 
@@ -141,6 +175,9 @@ $$
 
 なるほど。なるほど。
 
+> [1] 長い脚注です。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。こんにちは。
+
+---
 # スライド6
 ## TOCを使う
 <!-- _class: toc -->
@@ -152,45 +189,49 @@ $$
 5. アイテム5
 6. アイテム6
 
+---
 # スライド7
-<!-- _class: no-point -->
-
 ポイントなしにもできる。
 
+---
 # スライド7
-<!-- _class: two-cols-no-point -->
+<!-- _class: two-cols -->
 
 ポイントなしの二列にもできる。
 
 ポイントなしの二列にもできる。
 
+---
 # スライド7
-<!-- _class: two-cols-no-point -->
+<!-- _class: two-cols -->
 
-<div>
+<div class="same-col">
+
 <div class="block">
 
 ### 定義2
 ここに定義を書く。
-
 </div>
 
 <div class="block">
 
 ### 定義3
 ここに定義を書く。
-
-</div>
-ポイントなしの二列にもできる。
-
-ポイントなしの二列にもできる。
-
 </div>
 
 ポイントなしの二列にもできる。
 
+ポイントなしの二列にもできる。
+
+</div>
+
+ポイントなしの二列にもできる。
+
+ポイントなしの二列にもできる。
+
+---
 # スライド8
-<!-- _class: toc-no-point -->
+<!-- _class: toc -->
 
 1. ポイントなしのTOCもできる。
 2. アイテム2
@@ -199,6 +240,7 @@ $$
 5. アイテム5
 6. アイテム6
 
+---
 # スライド9
 ## 文字を小さくする
 
@@ -221,6 +263,7 @@ $$
 
 </div>
 
+---
 # スライド10
 ## 文字をさらに小さくする
 
@@ -245,6 +288,7 @@ $$
 
 </div>
 
+---
 # スライド11
 ## 文字を大きくする
 
@@ -263,6 +307,7 @@ $$
 
 </div>
 
+---
 # スライド12
 ## 文字をさらに大きくする
 
@@ -279,6 +324,7 @@ $$
 
 </div>
 
+---
 # スライド11
 ## 文字をとても小さくする
 
@@ -311,6 +357,7 @@ $$
 
 </div>
 
+---
 # スライド12
 ## 文字をとても小さくする
 
@@ -349,6 +396,7 @@ $$
 
 </div>
 
+---
 # スライド13
 ## ブロックを使う
 
@@ -356,19 +404,53 @@ $$
 
 ### 定義1
 ここに定義を書く。
-$$
-y = \frac{1}{N} \sum_{i=1}^N x_i
-$$
 </div>
 
 <div class="block block-red">
 
 ### 定義1
 ここに定義を書く。
-$$
-y = \frac{1}{N} \sum_{i=1}^N x_i
-$$
 </div>
 
+---
 # スライド14
 <!-- _class: appendix -->
+
+---
+# 浮動ボックスを試す
+
+<style>
+    .box {
+        float: left;
+        margin-right: 15px;
+        border-radius: 5px;
+        background-color: rgb(207 232 220);
+        padding: 0.5em;
+    }
+</style>
+
+<div class="box">
+
+![height:350px](https://github.com/marp-team.png)
+
+Figure 1. example image.
+
+</div>
+
+これはなんでしょうか。
+
+---
+# 浮動ボックスを試す
+
+<div style="float: left; margin-right: 20px;" class="block block-green">
+
+### Figure 1. example image.
+
+![height:350px](https://github.com/marp-team.png)
+
+</div>
+
+これはなんでしょうか。
+・まず、〇〇する。
+・次に、〇〇する。
+・最後に、〇〇する。

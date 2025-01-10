@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: customVer01.5
+theme: customVer01.6
 size: 16:9
 paginate: true
 headingDivider: 1
@@ -187,7 +187,14 @@ $$
 
 </div>
 
+<div>
+
 ポイントなしの二列にもできる。
+
+ポイントなしの二列にもできる。
+
+</div>
+
 
 # スライド8
 <!-- _class: toc-no-point -->
